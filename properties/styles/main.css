@@ -68,6 +68,8 @@ body {
 }
 
 .contentCase {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     background-color: white;
     padding: 30px;
@@ -124,5 +126,50 @@ body {
     .contentCase .desc {
         font-size: 15px;
         padding: 15px;
+    }
+}
+
+.site-footer {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+    
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+/* Tablet & Desktop Layout Adjustment */
+@media (min-width: 600px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
