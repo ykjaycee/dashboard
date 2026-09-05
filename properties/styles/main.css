@@ -103,7 +103,7 @@ body {
     }
 
     .menu {
-        position: sticky;
+        position: relative;
         width: 100%;
         height: auto;
         flex-direction: row;
