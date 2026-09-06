@@ -174,3 +174,32 @@ body {
         justify-content: space-between;
     }
 }
+
+/* Add this to main.css */
+.contentCase button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 12px auto;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+    background-color: skyblue;
+    border: 2px solid #222222;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contentCase button:hover {
+    background-color: wheat;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contentCase button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
