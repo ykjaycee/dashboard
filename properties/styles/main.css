@@ -62,7 +62,6 @@ body {
 .active { box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .main {
-    margin-top: 5rem;
     width: 100%;
     max-width: 800px;
     background-color: wheat;
@@ -118,7 +117,6 @@ body {
     }
 
     .main {
-        margin-top: 2.5rem;
         padding: 15px;
     }
 
